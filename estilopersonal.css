@@ -2,6 +2,7 @@ header{
     height: 70px;
     background-color: rgb(24, 36, 44);
     padding: 10px;
+    
 }
 h1{
 color: lightcyan; font-size: 30px ;
@@ -19,9 +20,11 @@ h3{
     color: lightcyan; font-size: 25px;
     background-color: black;
     top: 70px;
+    text-decoration: none;
 }
 p{
-    color: lightcyan; font-size: 20px;
+    color: rgb(2, 2, 2); font-size: 20px;
+    background-color: white;
 }
 
 footer{
@@ -29,9 +32,17 @@ footer{
 }
 
 h4{
-color: lightcyan; font-size: 15px;
+color: rgb(209, 228, 46); font-size: 15px;
+}
+
+h5{
+    font-size: 25px;
+    color: white;
 }
 
 article{
     background-color: powderblue;
+    top: 70px;
+    left: 0;
+    width: 100%;
 }

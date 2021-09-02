@@ -1,16 +1,22 @@
 header{
-    height: 70px;
     background-color: rgb(24, 36, 44);
-    padding: 10px;
-    
 }
+
 h1{
 color: lightcyan; font-size: 30px ;
 }
 
-body{
-    background: url(images/fondo.jpg);
+.carrosel{
+margin-top: 50px;
+margin-left: 400px;
+width: 500px;
+
 }
+
+.Buscar{
+    margin-left: 900px;
+}
+
 
 h2{
     color: lightcyan; font-size: 30px;

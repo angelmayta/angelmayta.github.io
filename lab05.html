@@ -7,16 +7,49 @@
         <title>Laboratorio 05</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="estilos/estilopersonal.css">
+        <link rel="stylesheet" href="css/estilopersonal.css">
     </head>
     <body>
         <div class="container-fluid p-0 m-0">
             <div class="col-12">
                 <div class="contenedor">
                     <h2>LAB 05: TALLER DE JAVASCRIPT</h2>
-                    <div>
-                        
-                    </div>
+                    <form action="">
+                        <div>
+                            <label style="background-color: rgb(46, 124, 228);" for="nombre">Apellidos y Nombres: </label>
+                            <input type="text" id="nombre">
+                            <input style="background-color: rgb(202, 152, 42);" type="button" value="Extraer" onclick="extraer()">
+                            <input style="background-color: brown;" type="button" value="Colorear" onclick="colorear()">
+                        </div>
+
+                        <div>
+                            <label style="background-color:rgb(46, 124, 228);" for="fNac">Fecha de nacimiento: </label>
+                            <input type="text" id="fecha">
+                        </div>
+
+                        <div>
+                            <label style="background-color:rgb(46, 124, 228);" for="app">Apellido paterno: </label>
+                            <input type="text" id="app">
+                            <label style="background-color: brown;" for="longAp">Longitud del apellido: </label>
+                            <input type="text" id="longAp">
+                        </div>
+
+                        <div>
+                            <label style="background-color:rgb(46, 124, 228);" for="apm">Apellido materno: </label>
+                            <input type="text" id="apm">
+                            <label style="background-color: brown;" for="edad">Edad: </label>
+                            <input type="text" id="edad">
+                        </div>
+
+                        <div>
+                            <label style="background-color:rgb(46, 124, 228);" for="nombres">Nombres: </label>
+                            <input type="text" id="nombres">
+                            <label style="background-color: brown;" for="mesLetras">Mes en letras: </label>
+                            <input type="text" id="mesLetras">
+                        </div>
+
+                    </form>
+                    
 
 
 
@@ -27,6 +60,6 @@
             </div>
         </div>
 
-        <script src="" async defer></script>
+        <script src="js/lab05.js"></script>
     </body>
 </html>

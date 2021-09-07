@@ -72,35 +72,64 @@ h5{
 }
 
 
-/* laboratorio 5 */
+/* laboratorio 5 ------------------------------------------------------------------------------------ */
 .contenedor{
-background-color:mediumspringgreen;
+background-color:rgb(135, 228, 192);
 margin: 80px;
 padding-top: 5px;
 padding-bottom: 20px;
-padding-left: 280px;
 }
 
 
 .contenedor h2{
     text-align: center;
-    padding-right: 250px;
+    font-size: 25px;
 }
 
 
-label{
+.contenedor .azul{
+    background-color: rgb(34, 112, 185);
+    padding-left: 50px;
+    padding-right: 50px;
     color: white;
     padding-top: 7px;
     padding-bottom: 7px;
-   
+    margin-left: 50px;
 }
-input{
-    color: black;
+
+.contenedor .rojo{
+    background-color: rgb(235, 91, 72);
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 100px;
+    color: white;
     padding-top: 7px;
     padding-bottom: 7px;
 }
 
 
+.contenedor .btnExtraer{
+    background-color:rgb(230, 155, 70);
+    margin-left: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    border-radius: 7px;
+}
+
+#color{
+    background-color: rgb(235, 91, 72);
+    margin-left: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    border-radius: 7px;
+}
+
+
+div{
+    margin-bottom: 20px;
+}
 
 
 

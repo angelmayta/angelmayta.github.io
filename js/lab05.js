@@ -7,3 +7,7 @@ function extraer(){
     console.log(fNac);
 }
 
+
+function colorear() {
+    let color = document.getElementById("color").style.background = "rgb(34, 112, 185)";
+}
